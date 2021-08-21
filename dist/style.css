@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    margin: 0
+}
+
+header {
+    height: 100vh;
+}
+
+button {
+    display: block;
+}
+
+input {
+    display: block;
+}
+
+label {
+    display: block;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.project-container:hover {
+    background-color: #EFEFEF;
+}
+
+.delete-projects-button {
+    color: red;
+}
+
+.task-div  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    display: none;
+}
+
